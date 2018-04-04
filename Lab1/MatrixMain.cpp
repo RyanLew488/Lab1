@@ -1,5 +1,6 @@
 #include <iostream>
 #include "readMatrix.hpp"
+#include "determinate.hpp"
 
 
 int main() {
@@ -43,10 +44,15 @@ int main() {
 		}
 		std::cout << std::endl;
 	}
-
+	
+	int determinateValue = 0;
+	determinateValue = determinate(matrix, matrixSize);
+	std::cout << "The determinate of your matrix is: " << determinateValue;
 	for (int row = 0; row < matrixSize; row++) {
 		free(matrix[row]);
 	}
+
+	
 
 	free(matrix);
 	std::cin.get();
