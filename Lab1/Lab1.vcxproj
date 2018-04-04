@@ -115,10 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="determinant.cpp" />
     <ClCompile Include="MatrixMain.cpp" />
     <ClCompile Include="readMatrix.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="determinate.hpp" />
     <ClInclude Include="readMatrix.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

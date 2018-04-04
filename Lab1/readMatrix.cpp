@@ -1,7 +1,7 @@
 #include <iostream>
 #include "readMatrix.hpp"
 
-void readMatrix(int **aPtr, int size) {
+void readMatrix(int** aPtr, int size) {
 	
 	for (int row = 0; row < size; row++) {
 

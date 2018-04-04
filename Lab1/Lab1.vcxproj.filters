@@ -21,9 +21,15 @@
     <ClCompile Include="readMatrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="determinant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="readMatrix.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="determinate.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
