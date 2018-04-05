@@ -8,7 +8,7 @@
 #include <iostream>
 #include <sstream>
 #include "readMatrix.hpp"
-#include "determinate.hpp"
+#include "determinant.hpp"
 
 /*********************************************************************
 ** main creates a dynamic 2d array, prints out the array and calculates
@@ -52,9 +52,9 @@ int main() {
 	}
 	
 	//calculate the determinate of the array
-	int determinateValue = 0;
-	determinateValue = determinate(matrix, matrixSize);
-	std::cout << "The determinate of your matrix is: " << determinateValue;
+	int determinantValue = 0;
+	determinantValue = determinant(matrix, matrixSize);
+	std::cout << "The determinant of your matrix is: " << determinantValue;
 	
 	//free the memory
 	for (int row = 0; row < matrixSize; row++) {
