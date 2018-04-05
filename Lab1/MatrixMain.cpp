@@ -56,7 +56,7 @@ int main() {
 	determinantValue = determinant(matrix, matrixSize);
 	std::cout << "The determinant of your matrix is: " << determinantValue;
 	
-	//free the memory
+	//deallocating the memory
 	for (int row = 0; row < matrixSize; row++) {
 		delete[]matrix[row];
 	}
