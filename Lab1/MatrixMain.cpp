@@ -58,9 +58,9 @@ int main() {
 	
 	//free the memory
 	for (int row = 0; row < matrixSize; row++) {
-		free(matrix[row]);
+		delete[]matrix[row];
 	}
-	free(matrix);
+	delete[]matrix;
 	
 	std::cin.get();
 	std::cin.get();
