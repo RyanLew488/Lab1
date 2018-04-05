@@ -29,7 +29,7 @@
     <ClInclude Include="readMatrix.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="determinate.hpp">
+    <ClInclude Include="determinant.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
