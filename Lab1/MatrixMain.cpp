@@ -17,7 +17,6 @@
 *********************************************************************/
 int main() {
 
-	bool validInput = false;
 	int matrixSize = 0;
 	std::string str = "";
 	
